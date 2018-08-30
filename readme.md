@@ -7,3 +7,15 @@ This code is the result of passing [course](https://www.linkedin.com/learning/cs
 ```bash
 npm install -g lessc sass
 ```
+
+## Usage
+
+compile from less to css:
+```bash
+lessc <input.less> <output.css>
+```
+
+comile from sass to css:
+```bash
+sass <input.scss> <output.css>
+```
