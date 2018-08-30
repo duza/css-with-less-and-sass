@@ -5,5 +5,5 @@ This code is the result of passing [course](https://www.linkedin.com/learning/cs
 ## Install
 
 ```bash
-npm install -g less sass
+npm install -g lessc sass
 ```
