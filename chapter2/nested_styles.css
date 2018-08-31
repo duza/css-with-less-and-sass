@@ -12,3 +12,11 @@ body p {
 body p#mypara {
   font-family: "Courier New";
 }
+#mypara {
+  color: #404040;
+  border: 1px solid #404040;
+  padding: 10px;
+}
+#mypara:hover {
+  color: red;
+}
