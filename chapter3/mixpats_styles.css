@@ -1,0 +1,12 @@
+/*
+ * Using LESS pattern matching with mixins
+ *
+ */
+#mypara {
+  color: #00b300;
+  border-color: #001a00;
+  display: block;
+  border-width: 2px;
+  border-style: solid;
+  padding: 10px;
+}
