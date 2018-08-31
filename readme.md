@@ -15,7 +15,7 @@ compile from less to css:
 lessc <input.less> <output.css>
 ```
 
-comile from sass to css:
+compile from sass to css:
 ```bash
 sass <input.scss> <output.css>
 ```
