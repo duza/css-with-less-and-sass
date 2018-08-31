@@ -1,0 +1,26 @@
+/*
+ * Using LESS functions
+ *
+ */
+h1 {
+  color: navy;
+}
+h2 {
+  color: #0000e6;
+}
+h3 {
+  color: #1a1aff;
+}
+h4 {
+  color: #4d4dff;
+}
+#mypara {
+  -mox-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  border-color: hsl(240, 45%, 60%);
+  border-width: 2px;
+  border-style: solid;
+  padding: 10px;
+}
