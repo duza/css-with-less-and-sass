@@ -1,0 +1,17 @@
+/*
+ * LESS Variables are defined with an @ character
+ * and can have different kinds of data types: color, string, boolean & etc.
+ *
+ */
+h1,
+h2 {
+  color: navy;
+}
+#mypara {
+  font-size: 24px;
+  border: 4px solid navy;
+  padding: 15px 15px 15px 35px;
+}
+#mypara:after {
+  content: " with an appended string";
+}
