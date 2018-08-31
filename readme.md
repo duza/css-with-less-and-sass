@@ -19,3 +19,8 @@ comile from sass to css:
 ```bash
 sass <input.scss> <output.css>
 ```
+or:
+```bash
+sass --update <directory>:<directory>
+sass --watch <directory>:<directory>
+```
