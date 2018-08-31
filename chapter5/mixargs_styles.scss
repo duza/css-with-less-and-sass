@@ -1,0 +1,36 @@
+/*
+ * Using SASS mixins with arguments
+ */
+
+// using regular arguments
+@mixin border-radius($radius: 10px) {
+  -mox-border-radius: $radius;
+  -webkit-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+// using named arguments with defaults
+@mixin customBorder($width: 1px, $color: black, $style: solid) {
+  border: {
+    width: $width;
+    style: $style;
+    color: $color;
+  }
+}
+
+// using the @arguments parameter
+@mixin box-shadow($x, $y, $blur, $color) {
+  $arguments: $x $y $blur $color;
+  -webkit-box-shadow: $arguments;
+  -mox-box-shadow: $arguments;
+  -ms-box-shadow: $arguments;
+  box-shadow: $arguments;
+}
+
+#mypara {
+  @include border-radius;
+  @include customBorder(3px, blue, dotted);
+  @include box-shadow(10px, 10px, 10px, gray);
+  padding: 10px;
+}
