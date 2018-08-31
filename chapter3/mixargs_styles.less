@@ -1,0 +1,16 @@
+/*
+ * Using LESS mixins with arguments
+ */
+
+// using regular arguments
+.border-radius(@radius: 5px) {
+  -mox-border-radius: @radius;
+  -webkit-border-radius: @radius;
+  -ms-border-radius: @radius;
+  border-radius: @radius;
+}
+
+#mypara {
+  .border-radius;
+  border: 1px solid black;
+}
