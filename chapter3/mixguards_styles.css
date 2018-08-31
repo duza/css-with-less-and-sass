@@ -3,9 +3,9 @@
  *
  */
 h1 {
-  color: #666;
-  border: 2px solid gray;
-  text-shadow: 1px 1px 0px #595959, 2px 2px 0px #4d4d4d, 3px 3px 0px #404040, 4px 4px 0px #333333, 4px 4px 3px #000;
+  color: #ccc;
+  border: 2px dashed gray;
+  text-shadow: 1px 1px 0px #d9d9d9, 2px 2px 0px #e6e6e6, 3px 3px 0px #f2f2f2, 4px 4px 0px #ffffff, 4px 4px 3px #ccc;
   font-size: 32pt;
   padding: 5pt;
 }
