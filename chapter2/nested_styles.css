@@ -3,16 +3,12 @@
  * the nested rules to only apply within the outer rule's selector
  *
  */
-
 body {
   font-family: Helvetica, Arial, sans-serif;
-
-  p {
-    font-family: Times;
-  }
-
-  p#mypara {
-    font-family: "Courier New";
-  }
 }
-
+body p {
+  font-family: Times;
+}
+body p#mypara {
+  font-family: "Courier New";
+}
